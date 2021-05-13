@@ -1,0 +1,21 @@
+{
+  "name": "wqt_mustache",
+  "version": "1.0.0",
+  "description": "手写mustache模板引擎",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "wqt",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
